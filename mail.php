@@ -40,6 +40,6 @@ $mail->AltBody = '';
 if(!$mail->send()) {
     echo 'Error';
 } else {
-    header('location: thank-you.html');
+    echo 'alert("message successfully sent")';
 }
 ?>
