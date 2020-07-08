@@ -347,23 +347,6 @@ input[type="radio"]:checked + label:after {
     .owl-carousel {
       position: relative;
     }
-    .quiz-button {
-      font-size: 1em;
-      padding-right: 20px;
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      border: 0;
-      width: 150px;
-      height: 60px;
-      background: linear-gradient(98.61deg, #FBDB6A 5.19%, #FFEBA3 49.97%, #FBDB6A 95.49%);
-      box-shadow: inset 0px 0px 26px rgba(255, 255, 255, 0.54);
-      border-bottom: 3px solid #E8C240;
-      border-radius: 52px;
-      transition: .3s;
-      z-index: 10;
-    }
     .quiz-button span {
       top: 50%;
       transform: translateY(-50%);
@@ -439,6 +422,23 @@ input[type="radio"]:checked + label:after {
       display: flex;
       align-items: center;
       width: 90%;
+    }
+    .quiz-button {
+      font-size: 1em;
+      padding-right: 20px;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 0;
+      width: 150px;
+      height: 60px;
+      background: linear-gradient(98.61deg, #FBDB6A 5.19%, #FFEBA3 49.97%, #FBDB6A 95.49%);
+      box-shadow: inset 0px 0px 26px rgba(255, 255, 255, 0.54);
+      border-bottom: 3px solid #E8C240;
+      border-radius: 52px;
+      transition: .3s;
+      z-index: 10;
     }
     .final-button {
       font-size: 1em;
